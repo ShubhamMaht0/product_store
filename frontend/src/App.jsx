@@ -1,9 +1,9 @@
 
 import { Route, Routes } from 'react-router-dom'
 import { Box } from '@chakra-ui/react'
-import CreatePage from './pages/CreatePage'
-import HomePage from './pages/HomePage'
-import Navbar from './components/Navbar'
+import CreatePage from './pages/CreatePage.jsx'
+import HomePage from './pages/HomePage.jsx'
+import Navbar from './components/Navbar.jsx'
 import { useColorModeValue } from './components/ui/color-mode'
 import { Toaster } from './components/ui/toaster'
 

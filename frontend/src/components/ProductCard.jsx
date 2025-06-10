@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { FaEdit } from 'react-icons/fa'
 import { MdDelete } from 'react-icons/md'
 import { useColorModeValue } from './ui/color-mode'
-import { useProductStore } from '@/store/product'
+import { useProductStore } from '@/store/product.js'
 import { toaster } from './ui/toaster'
 import { Field, Portal } from '@ark-ui/react'
 
