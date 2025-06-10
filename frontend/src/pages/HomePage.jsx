@@ -1,5 +1,5 @@
 
-import ProductCard from '@/components/productCard.jsx'
+import ProductCard from '@/components/ProductCard.jsx'
 import { useProductStore } from '@/store/product.js'
 import { Container, SimpleGrid, Text, VStack } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
